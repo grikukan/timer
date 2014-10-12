@@ -15,4 +15,5 @@ int main()
         time--;
         Sleep(1000);
     }
+    cout<<"Ура! Время вышло!"<<endl;
 }
