@@ -1,7 +1,7 @@
 #include <iostream>
 #include <windows.h>
 #include <clocale>
-
+#include <grammar.h>
 using namespace std;
 
 int main()
@@ -11,7 +11,7 @@ int main()
     cin>>time;
     while(time)
     {
-        cout<<"Осталось чихать "<<time<<" раз(-а)"<<endl;
+        cout<<"Осталось чихать "<<time<<form(time)<<endl;
         time--;
         Sleep(1000);
     }
